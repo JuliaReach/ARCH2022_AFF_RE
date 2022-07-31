@@ -1,0 +1,8 @@
+docker build . -t juliareach
+docker run -i --name jl_docker juliareach:latest julia startup.jl
+docker cp jl_docker:juliareach/ ./docker_dir
+mv docker_dir/result ./
+mv docker_dir/models/**/*.png ./result
+mv docker_dir/models/**/*.pdf ./result
+rm -Rf docker_dir
+docker rm --force jl_docker

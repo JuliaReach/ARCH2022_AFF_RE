@@ -1,0 +1,13 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+ExponentialUtilities = "d4d017d3-3776-5f7e-afef-a10c40355c18"
+FastExpm = "7868e603-8603-432e-a1a1-694bd70b01f2"
+IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+LazySets = "b4f0291d-fe17-52bc-9479-3d1a343d9043"
+MathematicalSystems = "d14a8603-c872-5ed3-9ece-53e0e82e39da"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+ReachabilityAnalysis = "1e97bd63-91d1-579d-8e8d-501d2b57c93f"
+SpaceExParser = "2e6cc458-d83e-591d-8542-f3776f70ceb9"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
