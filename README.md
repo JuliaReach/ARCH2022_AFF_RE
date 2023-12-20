@@ -1,14 +1,37 @@
 # ARCH2022 AFF
 
 This is the JuliaReach repeatability evaluation (RE) package for the ARCH-COMP
-2022 category report: Continuous and Hybrid Systems with Linear Dynamics
-of the 6th International Competition on Verifying Continuous and Hybrid Systems
-(ARCH-COMP '22).
+2022 category report: Continuous and Hybrid Systems with Linear Continuous
+Dynamics of the 6th International Competition on Verifying Continuous and Hybrid
+Systems (ARCH-COMP '22).
+
+To cite the work, you can use:
+
+```
+@inproceedings{AlthoffFSW22,
+  author    = {Matthias Althoff and
+               Marcelo Forets and
+               Christian Schilling and
+               Mark Wetzlinger},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP22} Category Report: Continuous and Hybrid Systems with
+               Linear Continuous Dynamics},
+  booktitle = {{ARCH}},
+  series    = {EPiC Series in Computing},
+  volume    = {90},
+  pages     = {58--85},
+  publisher = {EasyChair},
+  year      = {2022},
+  url       = {https://doi.org/10.29007/mmzc},
+  doi       = {10.29007/mmzc}
+}
+```
+
+## Installation
 
 *Note:* Running the full benchmark suite should take no more than three hours
 with a reasonable internet connection.
-
-## Installation
 
 There are two ways to install and run this RE: either using the Julia script or
 using the Docker script.
